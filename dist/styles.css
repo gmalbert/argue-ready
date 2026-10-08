@@ -13,3 +13,4 @@
 .quote-band:before{background:linear-gradient(112deg,rgba(22,104,213,.22),transparent 45%,rgba(142,188,243,.17))}
 .feature-visual{box-shadow:18px 18px 0 var(--yellow)}
 .method-card-featured{background:var(--teal)}
+.mobile-menu[hidden]{display:none!important}
