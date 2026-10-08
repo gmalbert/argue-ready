@@ -38,6 +38,5 @@
 .label-left{left:0;top:54%}
 .label-right{right:-1%;bottom:25%}
 @media (max-width:560px){.card-main{width:224px;padding:17px 17px 15px}.card-main p{font-size:19px;margin:22px 0 20px}.card-main strong{font-size:21px}.card-main .card-label{font-size:8px}.card-node{min-width:96px;padding:9px 10px 10px}.card-node strong{font-size:12px}.card-node small{font-size:9px}.node-four{right:0}.label-top{left:42%;font-size:9px}.label-left{font-size:9px}.label-right{right:0;font-size:9px}}
-.case-icon{display:block;width:58px;height:58px;margin:28px 0 21px;font-size:0;overflow:visible;color:currentColor}
-.case-icon path,.case-icon rect,.case-icon circle,.case-icon line,.case-icon polyline{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-@media (max-width:560px){.case-icon{width:52px;height:52px;margin:22px 0 14px}}
+.case-card h3{margin-top:30px}
+@media (max-width:560px){.case-card h3{margin-top:22px}}
