@@ -16,3 +16,25 @@
 .mobile-menu[hidden]{display:none!important}
 .case-card:hover,.case-card-active{color:var(--paper)}
 .case-card:hover p,.case-card:hover .case-index,.case-card-active p,.case-card-active .case-index{color:rgba(244,248,253,.82)}
+.hero-art:before{inset:30px 7% 24px 8%;background:linear-gradient(145deg,rgba(207,227,247,.95),rgba(244,248,253,.7));border:1px solid rgba(10,29,53,.14);border-radius:3px;transform:rotate(-3deg)}
+.hero-art:after{width:220px;height:220px;right:8%;top:8%;opacity:.16;filter:blur(22px)}
+.art-orbit{display:none}
+.art-lines path{stroke:rgba(10,29,53,.32);stroke-width:1.2;stroke-dasharray:3 7}
+.art-card{background:var(--paper);border-color:rgba(10,29,53,.24);box-shadow:8px 9px 0 rgba(10,29,53,.1)}
+.card-main{width:282px;top:49%;padding:21px 22px 18px;transform:translate(-50%,-50%) rotate(-1.5deg)}
+.card-main p{font-size:25px;line-height:1.08;margin:27px 0 25px}
+.card-main .card-label{display:block;font-family:var(--mono);font-size:9px;line-height:1.2;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:9px}
+.card-main strong{display:block;color:var(--ink);font-size:27px;line-height:1.02;letter-spacing:-.065em}
+.card-footer{font-size:8px;letter-spacing:.06em}
+.card-node{min-width:126px;padding:12px 14px 13px}
+.card-node strong{font-size:15px}
+.card-node small{font-size:10px}
+.node-one{left:1%;top:12%;transform:rotate(-4deg);background:var(--paper)}
+.node-two{right:1%;top:19%;transform:rotate(4deg);background:var(--teal)}
+.node-three{left:3%;bottom:10%;transform:rotate(3deg);background:var(--yellow)}
+.node-four{right:1%;bottom:9%;transform:rotate(-3deg);background:var(--coral);color:var(--paper)}
+.node-four .node-index,.node-four small{color:rgba(244,248,253,.82)}
+.label-top{top:4%;left:47%}
+.label-left{left:0;top:54%}
+.label-right{right:-1%;bottom:25%}
+@media (max-width:560px){.card-main{width:224px;padding:17px 17px 15px}.card-main p{font-size:19px;margin:22px 0 20px}.card-main strong{font-size:21px}.card-main .card-label{font-size:8px}.card-node{min-width:96px;padding:9px 10px 10px}.card-node strong{font-size:12px}.card-node small{font-size:9px}.node-four{right:0}.label-top{left:42%;font-size:9px}.label-left{font-size:9px}.label-right{right:0;font-size:9px}}
