@@ -25,10 +25,10 @@ const revealObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
 
 const caseDetails = {
-  prep: { title: '“Here’s the obligation I can’t miss.”', copy: 'Start with the proposition the court must understand. Then give the argument a structure that can survive interruption.' },
-  podium: { title: '“I can see what is covered.”', copy: 'Keep the issue tree, standard of review, authorities, and requested relief visible without turning the screen into a teleprompter.' },
-  bench: { title: '“Answer the question. Keep the thread.”', copy: 'Surface the prepared response, then return to the next unfinished obligation instead of rebuilding your place from memory.' },
-  rebuttal: { title: '“Protect the time that remains.”', copy: 'Keep the reserved rebuttal clock and the strongest prepared responses close enough to use when it matters.' },
+  prep: { title: '“Here’s the question the court must answer.”', copy: 'Assemble the question presented, key authorities, record locations, themes, vulnerable points, and the answer you want ready.' },
+  podium: { title: '“Answer the question in front of you.”', copy: 'Keep the standard of review, record cite, and path to relief within reach without turning the bench sheet into a teleprompter.' },
+  bench: { title: '“I know where to go next.”', copy: 'Surface the prepared response to a hard question, then return to the next unfinished obligation instead of rebuilding your place from memory.' },
+  rebuttal: { title: '“These are the points that matter.”', copy: 'Mark the strongest responses to statements that were incorrect, incomplete, unsupported, or conceded, then bring them back to your affirmative argument.' },
 };
 const detail = document.querySelector('[data-case-detail]');
 const detailTitle = document.querySelector('[data-detail-title]');
