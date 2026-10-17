@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>ArgueReady</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleName</key>
+	<string>ArgueReady</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>IssueReportEndpoint</key>
+	<string>https://cue-complete.pages.dev/api/issue-reports</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>ArgueReady uses the microphone during rehearsal to transcribe speech for counsel-approved requirement matching. Raw audio is not saved by ArgueReady.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>ArgueReady checks whether speech recognition is available on this device and language. On-device mode stops if it cannot run locally; network-assisted recognition is opt-in.</string>
+</dict>
+</plist>

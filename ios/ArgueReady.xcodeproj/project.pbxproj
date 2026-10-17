@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E790AD7C15DB07390B8EAB /* WatchConnectivityBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC69CB62606A2BC788865D /* WatchConnectivityBridge.swift */; };
+		01D4450B668A0F25374B7092 /* CoverageEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041B2D0E54F19A9242B8A2B /* CoverageEngine.swift */; };
+		077B1117AB4E478DD20F72A3 /* SpeechCaptureState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8812BABA9A40622EBE0B21B9 /* SpeechCaptureState.swift */; };
+		1108FA4FCE6DFE5C234330EB /* WatchSessionSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C307451B6BB40478AB7190BC /* WatchSessionSnapshot.swift */; };
+		17EB3BB8E91DFD10C18191A4 /* LegalWatchSessionSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6818C3481E6B52577DE819C6 /* LegalWatchSessionSnapshot.swift */; };
+		1FFFDE5E6331E4B04EA84FC0 /* WatchConnectivityBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDC69CB62606A2BC788865D /* WatchConnectivityBridge.swift */; };
+		241DBFE966FFBF976FE72A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D8DA07961B67C825508940 /* Assets.xcassets */; };
+		2A90FF6B38CC529E799D4A6B /* SpeechSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0193211D6875CE34DC60AAB /* SpeechSession.swift */; };
+		3A7BA5A43001DF8E2AFE9EF6 /* ArgueReadyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCB57B60120008392266875 /* ArgueReadyApp.swift */; };
+		3DE51421F8D0C04DE572F911 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D3908E299E6D12F5ADD74 /* Models.swift */; };
+		55F1212AFD4C74A9EC5C19E6 /* TranscriptExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506E1EF99AAA174FE7B1CDE9 /* TranscriptExport.swift */; };
+		59BC65D3E0E22D2C9C9AA89D /* WatchSessionSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C307451B6BB40478AB7190BC /* WatchSessionSnapshot.swift */; };
+		5C7F7B859101B6D719529B57 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D3908E299E6D12F5ADD74 /* Models.swift */; };
+		6015E2B9A4635BEE7ADD8BAC /* LegalWatchSessionSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6818C3481E6B52577DE819C6 /* LegalWatchSessionSnapshot.swift */; };
+		73B7EFE1B5B58BBB9CD277D1 /* LegalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C597F4C5E722331C75590 /* LegalModels.swift */; };
+		7969C88D98C9FE0C5C58E645 /* SemanticCoverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5784F04944252EE2617F1BC /* SemanticCoverage.swift */; };
+		BC191CD062FA6EE9FEA6F3DF /* LegalWorkspaceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B795D26434750F9FA9B6C1 /* LegalWorkspaceViews.swift */; };
+		C070833DC56D022D4A8EDCF9 /* LegalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C597F4C5E722331C75590 /* LegalModels.swift */; };
+		DC87659B5E263F09474C20D6 /* ArgueReadyWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 57C22ABE09D3A8FA652FBA10 /* ArgueReadyWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD3B269F9AD951D5034742DF /* ArgueWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528BF619B667B411D2E231C0 /* ArgueWatchApp.swift */; };
+		EA1F8353355195FBCA2CF151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73AF9B2D46FC55EFAF1E860B /* Assets.xcassets */; };
+		EA2C79C4E558D0C8EB2240C7 /* WatchRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6E1CEB98F2E9CB025E7994 /* WatchRootView.swift */; };
+		FAD70D52ACA1F25A68A5432D /* OnDeviceCoverageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273CB7252EEEB812CBB0D3C /* OnDeviceCoverageService.swift */; };
+		FD38D8D0CACBF9ED15B26D41 /* CoreSettingsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9904CFE460F546D6E157F8 /* CoreSettingsViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEA321A948E50C152FD114A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0836C414DB1F51EC2395F35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B6A722D2C67A95CC490C36;
+			remoteInfo = ArgueReadyWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFA383FF848F5B918007AEF0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DC87659B5E263F09474C20D6 /* ArgueReadyWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F6E1CEB98F2E9CB025E7994 /* WatchRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRootView.swift; sourceTree = "<group>"; };
+		506E1EF99AAA174FE7B1CDE9 /* TranscriptExport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranscriptExport.swift; sourceTree = "<group>"; };
+		528BF619B667B411D2E231C0 /* ArgueWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgueWatchApp.swift; sourceTree = "<group>"; };
+		57C22ABE09D3A8FA652FBA10 /* ArgueReadyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArgueReadyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610069299CC0C4787FA63213 /* ArgueReady.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ArgueReady.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6818C3481E6B52577DE819C6 /* LegalWatchSessionSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalWatchSessionSnapshot.swift; sourceTree = "<group>"; };
+		7041B2D0E54F19A9242B8A2B /* CoverageEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverageEngine.swift; sourceTree = "<group>"; };
+		7273CB7252EEEB812CBB0D3C /* OnDeviceCoverageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDeviceCoverageService.swift; sourceTree = "<group>"; };
+		73AF9B2D46FC55EFAF1E860B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81D8DA07961B67C825508940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8812BABA9A40622EBE0B21B9 /* SpeechCaptureState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechCaptureState.swift; sourceTree = "<group>"; };
+		912D3908E299E6D12F5ADD74 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A5784F04944252EE2617F1BC /* SemanticCoverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemanticCoverage.swift; sourceTree = "<group>"; };
+		B0193211D6875CE34DC60AAB /* SpeechSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSession.swift; sourceTree = "<group>"; };
+		BCCB57B60120008392266875 /* ArgueReadyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgueReadyApp.swift; sourceTree = "<group>"; };
+		C307451B6BB40478AB7190BC /* WatchSessionSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionSnapshot.swift; sourceTree = "<group>"; };
+		D02C597F4C5E722331C75590 /* LegalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalModels.swift; sourceTree = "<group>"; };
+		DB9904CFE460F546D6E157F8 /* CoreSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSettingsViews.swift; sourceTree = "<group>"; };
+		EBDC69CB62606A2BC788865D /* WatchConnectivityBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityBridge.swift; sourceTree = "<group>"; };
+		F3B795D26434750F9FA9B6C1 /* LegalWorkspaceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalWorkspaceViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1FB2C8D0F729A3FFA76FF36B /* SharedCore */ = {
+			isa = PBXGroup;
+			children = (
+				DB9904CFE460F546D6E157F8 /* CoreSettingsViews.swift */,
+				7041B2D0E54F19A9242B8A2B /* CoverageEngine.swift */,
+				912D3908E299E6D12F5ADD74 /* Models.swift */,
+				7273CB7252EEEB812CBB0D3C /* OnDeviceCoverageService.swift */,
+				A5784F04944252EE2617F1BC /* SemanticCoverage.swift */,
+				8812BABA9A40622EBE0B21B9 /* SpeechCaptureState.swift */,
+				B0193211D6875CE34DC60AAB /* SpeechSession.swift */,
+				506E1EF99AAA174FE7B1CDE9 /* TranscriptExport.swift */,
+			);
+			path = SharedCore;
+			sourceTree = "<group>";
+		};
+		38F0CA25F8F0FEC39E696A60 /* ArgueReady */ = {
+			isa = PBXGroup;
+			children = (
+				BCCB57B60120008392266875 /* ArgueReadyApp.swift */,
+				81D8DA07961B67C825508940 /* Assets.xcassets */,
+				D02C597F4C5E722331C75590 /* LegalModels.swift */,
+				6818C3481E6B52577DE819C6 /* LegalWatchSessionSnapshot.swift */,
+				F3B795D26434750F9FA9B6C1 /* LegalWorkspaceViews.swift */,
+			);
+			path = ArgueReady;
+			sourceTree = "<group>";
+		};
+		59E8A739F42310787FC32513 /* ArgueReadyWatch */ = {
+			isa = PBXGroup;
+			children = (
+				528BF619B667B411D2E231C0 /* ArgueWatchApp.swift */,
+				73AF9B2D46FC55EFAF1E860B /* Assets.xcassets */,
+			);
+			path = ArgueReadyWatch;
+			sourceTree = "<group>";
+		};
+		899A58057014B68EA96A7E07 /* WatchShared */ = {
+			isa = PBXGroup;
+			children = (
+				EBDC69CB62606A2BC788865D /* WatchConnectivityBridge.swift */,
+				2F6E1CEB98F2E9CB025E7994 /* WatchRootView.swift */,
+				C307451B6BB40478AB7190BC /* WatchSessionSnapshot.swift */,
+			);
+			path = WatchShared;
+			sourceTree = "<group>";
+		};
+		C9D21227034FF389EECF418B = {
+			isa = PBXGroup;
+			children = (
+				38F0CA25F8F0FEC39E696A60 /* ArgueReady */,
+				59E8A739F42310787FC32513 /* ArgueReadyWatch */,
+				1FB2C8D0F729A3FFA76FF36B /* SharedCore */,
+				899A58057014B68EA96A7E07 /* WatchShared */,
+				F4DB47B74881F36FC912E9C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DB47B74881F36FC912E9C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610069299CC0C4787FA63213 /* ArgueReady.app */,
+				57C22ABE09D3A8FA652FBA10 /* ArgueReadyWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C4A781C296E73E9281F84F /* ArgueReady */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374DA8AEBD08491177A9A302 /* Build configuration list for PBXNativeTarget "ArgueReady" */;
+			buildPhases = (
+				D05A024FC8B2CB413576B48B /* Check ArgueReady use-notice regression */,
+				BA3DC73B588141789720722C /* Sources */,
+				A83387C060F6710EA5939612 /* Resources */,
+				BFA383FF848F5B918007AEF0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A8C6B68CFA3E216C625F6B6 /* PBXTargetDependency */,
+			);
+			name = ArgueReady;
+			packageProductDependencies = (
+			);
+			productName = ArgueReady;
+			productReference = 610069299CC0C4787FA63213 /* ArgueReady.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0B6A722D2C67A95CC490C36 /* ArgueReadyWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 544624520335522EB38455AB /* Build configuration list for PBXNativeTarget "ArgueReadyWatch" */;
+			buildPhases = (
+				B639102A560F1BAB7557FCA6 /* Sources */,
+				E6A39022D98FDE81F7F5D714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArgueReadyWatch;
+			packageProductDependencies = (
+			);
+			productName = ArgueReadyWatch;
+			productReference = 57C22ABE09D3A8FA652FBA10 /* ArgueReadyWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0836C414DB1F51EC2395F35F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					93C4A781C296E73E9281F84F = {
+						DevelopmentTeam = MUSJ464BDS;
+						ProvisioningStyle = Automatic;
+					};
+					B0B6A722D2C67A95CC490C36 = {
+						DevelopmentTeam = MUSJ464BDS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 98EC36B4CFBBF82FADF03B00 /* Build configuration list for PBXProject "ArgueReady" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C9D21227034FF389EECF418B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F4DB47B74881F36FC912E9C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C4A781C296E73E9281F84F /* ArgueReady */,
+				B0B6A722D2C67A95CC490C36 /* ArgueReadyWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A83387C060F6710EA5939612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241DBFE966FFBF976FE72A73 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A39022D98FDE81F7F5D714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1F8353355195FBCA2CF151 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D05A024FC8B2CB413576B48B /* Check ArgueReady use-notice regression */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Check ArgueReady use-notice regression";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/python3 \"$SRCROOT/scripts/check_argueready_use_notice.py\" \"$SRCROOT\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B639102A560F1BAB7557FCA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3B269F9AD951D5034742DF /* ArgueWatchApp.swift in Sources */,
+				C070833DC56D022D4A8EDCF9 /* LegalModels.swift in Sources */,
+				17EB3BB8E91DFD10C18191A4 /* LegalWatchSessionSnapshot.swift in Sources */,
+				3DE51421F8D0C04DE572F911 /* Models.swift in Sources */,
+				1FFFDE5E6331E4B04EA84FC0 /* WatchConnectivityBridge.swift in Sources */,
+				EA2C79C4E558D0C8EB2240C7 /* WatchRootView.swift in Sources */,
+				1108FA4FCE6DFE5C234330EB /* WatchSessionSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3DC73B588141789720722C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7BA5A43001DF8E2AFE9EF6 /* ArgueReadyApp.swift in Sources */,
+				FD38D8D0CACBF9ED15B26D41 /* CoreSettingsViews.swift in Sources */,
+				01D4450B668A0F25374B7092 /* CoverageEngine.swift in Sources */,
+				73B7EFE1B5B58BBB9CD277D1 /* LegalModels.swift in Sources */,
+				6015E2B9A4635BEE7ADD8BAC /* LegalWatchSessionSnapshot.swift in Sources */,
+				BC191CD062FA6EE9FEA6F3DF /* LegalWorkspaceViews.swift in Sources */,
+				5C7F7B859101B6D719529B57 /* Models.swift in Sources */,
+				FAD70D52ACA1F25A68A5432D /* OnDeviceCoverageService.swift in Sources */,
+				7969C88D98C9FE0C5C58E645 /* SemanticCoverage.swift in Sources */,
+				077B1117AB4E478DD20F72A3 /* SpeechCaptureState.swift in Sources */,
+				2A90FF6B38CC529E799D4A6B /* SpeechSession.swift in Sources */,
+				55F1212AFD4C74A9EC5C19E6 /* TranscriptExport.swift in Sources */,
+				00E790AD7C15DB07390B8EAB /* WatchConnectivityBridge.swift in Sources */,
+				59BC65D3E0E22D2C9C9AA89D /* WatchSessionSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A8C6B68CFA3E216C625F6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0B6A722D2C67A95CC490C36 /* ArgueReadyWatch */;
+			targetProxy = DDEA321A948E50C152FD114A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1134AE8839136F93DF47A774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = MUSJ464BDS;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		3EAEE541EB0F272AB96F8EAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ArgueReady/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.argueready.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB8353E7059CFFE4E3C45096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ArgueReady/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.argueready.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D43F783F68B6DA7AA07F0230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = MUSJ464BDS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		EDF72DB9BF8F141331B5B6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ArgueReadyWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.argueready.app.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F7154D0CEF86141893586FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ArgueReadyWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.argueready.app.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		374DA8AEBD08491177A9A302 /* Build configuration list for PBXNativeTarget "ArgueReady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EAEE541EB0F272AB96F8EAF /* Debug */,
+				BB8353E7059CFFE4E3C45096 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		544624520335522EB38455AB /* Build configuration list for PBXNativeTarget "ArgueReadyWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7154D0CEF86141893586FCE /* Debug */,
+				EDF72DB9BF8F141331B5B6F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		98EC36B4CFBBF82FADF03B00 /* Build configuration list for PBXProject "ArgueReady" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43F783F68B6DA7AA07F0230 /* Debug */,
+				1134AE8839136F93DF47A774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0836C414DB1F51EC2395F35F /* Project object */;
+}
