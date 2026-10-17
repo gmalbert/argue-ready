@@ -23,6 +23,7 @@
 		6015E2B9A4635BEE7ADD8BAC /* LegalWatchSessionSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6818C3481E6B52577DE819C6 /* LegalWatchSessionSnapshot.swift */; };
 		73B7EFE1B5B58BBB9CD277D1 /* LegalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C597F4C5E722331C75590 /* LegalModels.swift */; };
 		7969C88D98C9FE0C5C58E645 /* SemanticCoverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5784F04944252EE2617F1BC /* SemanticCoverage.swift */; };
+		B811FB7D7685EFB37CEE09E1 /* SemanticCoverageLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F849A520650B08ACB9722535 /* SemanticCoverageLabView.swift */; };
 		BC191CD062FA6EE9FEA6F3DF /* LegalWorkspaceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B795D26434750F9FA9B6C1 /* LegalWorkspaceViews.swift */; };
 		C070833DC56D022D4A8EDCF9 /* LegalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02C597F4C5E722331C75590 /* LegalModels.swift */; };
 		DC87659B5E263F09474C20D6 /* ArgueReadyWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 57C22ABE09D3A8FA652FBA10 /* ArgueReadyWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -78,6 +79,7 @@
 		DB9904CFE460F546D6E157F8 /* CoreSettingsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSettingsViews.swift; sourceTree = "<group>"; };
 		EBDC69CB62606A2BC788865D /* WatchConnectivityBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityBridge.swift; sourceTree = "<group>"; };
 		F3B795D26434750F9FA9B6C1 /* LegalWorkspaceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalWorkspaceViews.swift; sourceTree = "<group>"; };
+		F849A520650B08ACB9722535 /* SemanticCoverageLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemanticCoverageLabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -89,6 +91,7 @@
 				912D3908E299E6D12F5ADD74 /* Models.swift */,
 				7273CB7252EEEB812CBB0D3C /* OnDeviceCoverageService.swift */,
 				A5784F04944252EE2617F1BC /* SemanticCoverage.swift */,
+				F849A520650B08ACB9722535 /* SemanticCoverageLabView.swift */,
 				8812BABA9A40622EBE0B21B9 /* SpeechCaptureState.swift */,
 				B0193211D6875CE34DC60AAB /* SpeechSession.swift */,
 				506E1EF99AAA174FE7B1CDE9 /* TranscriptExport.swift */,
@@ -296,6 +299,7 @@
 				5C7F7B859101B6D719529B57 /* Models.swift in Sources */,
 				FAD70D52ACA1F25A68A5432D /* OnDeviceCoverageService.swift in Sources */,
 				7969C88D98C9FE0C5C58E645 /* SemanticCoverage.swift in Sources */,
+				B811FB7D7685EFB37CEE09E1 /* SemanticCoverageLabView.swift in Sources */,
 				077B1117AB4E478DD20F72A3 /* SpeechCaptureState.swift in Sources */,
 				2A90FF6B38CC529E799D4A6B /* SpeechSession.swift in Sources */,
 				55F1212AFD4C74A9EC5C19E6 /* TranscriptExport.swift in Sources */,
